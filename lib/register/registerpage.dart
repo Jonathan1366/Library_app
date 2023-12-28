@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 
-class RegisterPage extends StatefulWidget {
-  const RegisterPage({super.key});
+class Signup extends StatefulWidget {
+  const Signup({super.key});
 
   @override
-  State<RegisterPage> createState() => _RegisterPageState();
+  State<Signup> createState() => _SignupState();
 }
 
-class _RegisterPageState extends State<RegisterPage> {
+class _SignupState extends State<Signup> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const SafeArea(
+      child: Scaffold(body:Center(child: Column(children: [Text('data')],),)),
+    );
   }
 }
